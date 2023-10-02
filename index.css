@@ -1,0 +1,157 @@
+html, body {
+    padding: 0;
+    background: #1B1924;
+    user-select: none;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+
+
+}
+
+h1 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.endorsement-input {
+    width: 317px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #444059;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    text-align: top;
+
+
+}
+
+button {
+    width: 152.852px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #444059;      
+    border: none;
+    margin-right: 12px;
+
+}
+
+.inputs {
+    margin-top: 10px;
+    margin-left: 12px;
+    
+}
+
+#from-input {
+    width: 152.852px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #444059;      
+    border: none;
+    margin-right: 12px;
+    text-align: center;
+}
+
+
+#to-input {
+    text-align: center;
+    margin-left: 16px;
+    width: 152.852px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #444059;      
+    border: none;
+    margin-right: 12px;
+}
+
+
+#publish-btn {
+    text-align: center;
+    width: 337px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #28A9F1;
+    color: #04131C;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+h2 { 
+color: #FFF;
+font-family: Josefin Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.message { 
+width: 317px;
+height: 129px;
+flex-shrink: 0;
+background: #FFF;
+}
+
+.from {
+    
+}
+
+.to {
+    
+}
+
+.message {
+    
+}
