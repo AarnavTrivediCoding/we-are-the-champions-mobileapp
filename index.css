@@ -138,20 +138,34 @@ line-height: normal;
 }
 
 .message { 
+display: flex;
+flex-direction: column-reverse;
 width: 317px;
-height: 129px;
 flex-shrink: 0;
 background: #FFF;
+margin: 10px 0;
 }
 
 .from {
-    
+color: #1B1924;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 10px;
+padding-bottom: 10px;
 }
 
 .to {
-    
+color: #1B1924;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 10px;
+padding-top: 10px;
 }
 
-.message {
-    
+.body-message {
+   margin-left: 10px; 
 }

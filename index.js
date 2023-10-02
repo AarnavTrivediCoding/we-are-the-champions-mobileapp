@@ -25,6 +25,7 @@ publishEl.addEventListener("click", function() {
 onValue(endorsementsInDB, function(snapshot) {
     let endorsementsArray = Object.entries(snapshot.val()) // creates entries with [0] being key and [1] being value
     //onvalue runs whenever change to database is made , snapshot is created
+    clearEndorsementsEl()
     for (let i = 0; i < endorsementsArray.length; i++) {
         let currentEndorsement = endorsementsArray[i]
         let currentID = currentEndorsement[0]
@@ -52,13 +53,13 @@ function appendEndorsementToEndorsementsInDB(item) {
     let endorsementVal = item[1]
     endorsementsEl.innerHTML += `
     <div class="message">
-        <p class="to"><strong> To ${toInput.value}</strong></p>
+        <p class="to"><strong>To ${toInput.value}</strong></p>
         <p class="body-message">${inputFieldEl.value}</p>
         <p class="from"><strong>From ${fromInput.value}</strong></p>
     </div>
     `
+}
 
-
-    
-
+function clearEndorsementsEl() {
+    endorsementsEl.innerHTML = ""
 }
